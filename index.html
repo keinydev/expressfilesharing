@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="keywords" content="file sharing, file.io">
+	<meta name="description" content="Express File Sharing">
+	<link rel="stylesheet" href="src/assets/css/papercss.css">
+	<link rel="stylesheet" href="src/assets/css/style.css">
+	<title>Express File Sharing</title>
+</head>
+<body>
+
+    <input class="modal-state" id="modal-v" type="checkbox">
+    <div class="modal">
+      <label class="modal-bg" for="modal-v"></label>
+      <div class="modal-body" style="width: 20rem;">
+        <label class="btn-close" for="modal-v">X</label>
+        <h4 id="modal-v-title" class="modal-title"></h4>
+        <h5 id="modal-v-subtitle" class="modal-subtitle"></h5>
+        <p id="modal-v-text" class="modal-text"></p> 
+        <div class="row flex-right"> 
+        	<label for="modal-v" class="paper-btn">Ok</label>
+        </div>
+      </div>
+    </div>    	
+
+	<div style="max-width: 1200px; margin-top:25px;" class="row flex-center" >
+		<div class="sm-8 md-8 col flex-spaces border" style="background: gold;">
+			<header class="text-center">
+				<h1>Express File Sharing</h1>
+			</header>
+			<div id="mainOptions" class="row flex-center">
+				<a class="paper-btn btn-secondary " href="/#/">Write</a>
+				<a class="paper-btn btn-secondary margin" href="/#/links">Your Links</a>
+				<a class="paper-btn btn-secondary" href="/#/about">About</a>
+			</div>
+			<main class="border margin" id="root" style="background: floralwhite;"></main>
+			<footer class="row flex-center">
+				<p>Made with 💜 by <a href="https://linkedin.com/in/keinypachecocarcamo" target="_blank">Keiny</a>. Thanks to  <a href="https://www.getpapercss.com/" target="_blank">PaperCSS</a> for the styles!</p>
+			</footer>
+		</div>
+	</div>
+	<script type="module" src="src/App.js"></script>
+</body>
+</html>

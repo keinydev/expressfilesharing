@@ -1,0 +1,24 @@
+body{
+	background: aliceblue;
+}
+
+h1{
+	margin: .17em 0
+}
+
+.delete-link{
+	cursor:pointer;
+}
+
+select, .expiration-input {
+	display: inline-block;
+}
+
+.expiration-input {
+	width: 15%;
+}
+
+.modal label.text-danger{
+	color: #a7342d !important;
+	font-weight: bold;
+}
